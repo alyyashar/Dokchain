@@ -1,0 +1,25 @@
+{
+  "name": "Dokchain",
+  "version": "0.0.1",
+  "description": "Certificate Verification Using Blockchain",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "npm run test",
+    "dev": "lite-server",
+    "test": "lite-server"
+  },
+  "author": "Syed Ali Ashar",
+  "license": "",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.0.40",
+    "lite-server": "^2.3.0",
+    "mime-types": "^2.1.25",
+    "truffle": "^4.0.6"
+  }
+}
